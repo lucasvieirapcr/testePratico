@@ -13,3 +13,10 @@ Este é um sistema simples desenvolvido em Java para gerenciar informações de 
 9. Funcionários ordenados por nome: Ordena os funcionários em ordem alfabética e os exibe.
 10. Total dos salários dos funcionários: Calcula e mostra o total dos salários de todos os funcionários.
 11. Quantidade de salários mínimos dos funcionários: Calcula quantos salários mínimos cada funcionário recebe, considerando o salário mínimo definido como R$1212.00.
+
+# Explicando o main com menu
+
+Eu tomei a iniativa de criar outro main com os mesmos funcionários da tabela do desafio e com as mesmas opções das operações pelo fato do projeto se tratar de um sistema de gerenciamento de funcionários, achei que o menu seria uma abordagem mais organizada e que permitiria o usuario escolher facilmente entre diferentes funcionalidades de uma forma mais organizada vizualmente. Espero que tenham gostado.
+
+#Autor
+Lucas Vieira Gonçalves
