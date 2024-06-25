@@ -1,8 +1,14 @@
 # Sistema de Gerenciamento de Funcionários - Java
-Este é um sistema simples desenvolvido em Java para gerenciar informações de funcionários de uma indústria. O programa permite inserir funcionários, realizar operações como remoção, aumento de salário, agrupamento por função, e exibir estatísticas relacionadas aos funcionários.
+Este é um sistema simples desenvolvido em Java para gerenciar informações de funcionários de uma indústria. O programa permite inserir funcionários, realizar operações como remoção, aumento de salário, agrupamento por função, e exibir estatísticas relacionadas aos funcionários. 
+A classe 'Main' tem todos os requisitos que o teste pede, nesse readme eu explico como que funciona e o porque de ter criado outro main (MainComMenu). 
 
-# Funcionalidades
-1. Inserir funcionários: Permite adicionar novos funcionários à lista existente.
+# Explicando o main com menu
+
+Eu tomei a iniativa de criar outro main com os mesmos funcionários da tabela do desafio e com as mesmas opções das operações pelo fato do projeto se tratar de um sistema de gerenciamento de funcionários, achei que o menu seria uma abordagem mais organizada e que permitiria o usuario escolher facilmente entre diferentes funcionalidades de uma forma mais organizada vizualmente. Espero que tenham gostado.
+
+# Funcionalidades (main com menu)
+1. Funcionários com todas informações da tabela
+1.1. Inserir funcionários: Permite adicionar novos funcionários à lista existente.
 2. Remover funcionário por nome: Remove um funcionário da lista baseado no nome fornecido.
 3. Imprimir todos os funcionários: Exibe todos os funcionários cadastrados, formatando a data de nascimento e o salário conforme especificado.
 4. Aumentar salário dos funcionários: Aplica um aumento de 10% nos salários de todos os funcionários.
@@ -14,9 +20,5 @@ Este é um sistema simples desenvolvido em Java para gerenciar informações de 
 10. Total dos salários dos funcionários: Calcula e mostra o total dos salários de todos os funcionários.
 11. Quantidade de salários mínimos dos funcionários: Calcula quantos salários mínimos cada funcionário recebe, considerando o salário mínimo definido como R$1212.00.
 
-# Explicando o main com menu
-
-Eu tomei a iniativa de criar outro main com os mesmos funcionários da tabela do desafio e com as mesmas opções das operações pelo fato do projeto se tratar de um sistema de gerenciamento de funcionários, achei que o menu seria uma abordagem mais organizada e que permitiria o usuario escolher facilmente entre diferentes funcionalidades de uma forma mais organizada vizualmente. Espero que tenham gostado.
-
-#Autor
+# Autor
 Lucas Vieira Gonçalves
